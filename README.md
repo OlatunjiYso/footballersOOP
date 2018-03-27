@@ -2,7 +2,7 @@
 A simple demonstration of Javascript OOP modeling for footballers
 This repository models a base class of footballers from which we have two other classes which are Striker and Goalkeeper
 
-### Footballer
+## Footballer
 This is the base class from which all other classes inherits from.
 It contains the following attributes and methods
 * Attributes
@@ -22,7 +22,7 @@ It contains the following attributes and methods
     * Which works as follows
       Pogba.takeRedCard( )
       * It issues a staright red card and a commentary mentioning his club side.
-### Striker
+## Striker
 This is the class of all strikers. It inherits from the class of footballers.
 It contains it own special attributes and methods which includes
 * Attributes
@@ -38,7 +38,7 @@ It contains it own special attributes and methods which includes
       * Here is the logic behind calculating efficiency of a striker
       * (goals / goals + misses) x 100.
       
-### GoalKeeper
+## GoalKeeper
 This is the class of all goal keepers. It inherits from the class of footballers.
 It contains it own special attributes and methods which includes
 * Attributes
@@ -56,5 +56,7 @@ It contains it own special attributes and methods which includes
 Striker and goalkeeper both inherit from footballer class
 To demonstrate polymorphism, the same method name can be called on a footballer subclass and gives a result, however, this names have different underlying programming logic. 
 
-### Tests
+## Tests
 Tests were written using mocha and chai assertion library.
+
+*Andela Bootcamp task
