@@ -1,17 +1,17 @@
-# footballersOOP
+# FootballersOOP
 A simple demonstration of Javascript OOP modeling for footballers
 This repository models a base class of footballers from which we have two other classes which are Striker and Goalkeeper
 
 ## Footballer
 This is the base class from which all other classes inherits from.
 It contains the following attributes and methods
-* Attributes
+* #### Attributes
   * Age
   * Firstname
   * Lastname
   * Club
   * Position
-* Methods
+* #### Methods
   * TakeYellowCard
     * Which works like this
       pogba.takeYellowCard( )
@@ -25,10 +25,10 @@ It contains the following attributes and methods
 ## Striker
 This is the class of all strikers. It inherits from the class of footballers.
 It contains it own special attributes and methods which includes
-* Attributes
+* #### Attributes
   * Goals
   * Misses
-* Methods
+* #### Methods
   * scoreGoal(type)
     * This could be used as thus; Ronaldo.scoreGoal('header')
   * missGoal(type)
@@ -41,10 +41,10 @@ It contains it own special attributes and methods which includes
 ## GoalKeeper
 This is the class of all goal keepers. It inherits from the class of footballers.
 It contains it own special attributes and methods which includes
-* Attributes
+* #### Attributes
   * Saves
   * GoalConceeded
-* Methods
+* #### Methods
   * save(type)
     * This could be used as thus; Casilas.save('header')
   * conceedGoal(type)
@@ -59,4 +59,4 @@ To demonstrate polymorphism, the same method name can be called on a footballer 
 ## Tests
 Tests were written using mocha and chai assertion library.
 
-*Andela Bootcamp task
+*### Andela Bootcamp task
