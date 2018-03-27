@@ -59,4 +59,4 @@ To demonstrate polymorphism, the same method name can be called on a footballer 
 ## Tests
 Tests were written using mocha and chai assertion library.
 
-*### Andela Bootcamp task
+**Andela Bootcamp task**
