@@ -47,7 +47,7 @@ class Footballer {
       if (this.yellowCard = 0) {
         return `${this.fullname} receives his first yellow in this match, he really needs to be careful tonight!`
       }
-      if (this.yellowcard > 1) {
+      if (this.yellowcard = 1) {
         return `And that's it! ${this.fullname} receives his second yellow in this match, he's gonna be sent off tonight. A sad one for ${this.club} as they go 1 man down'`
       }
     }
